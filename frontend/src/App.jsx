@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import DiscussionForum from './components/DiscussionForum';
 import Analytics from './components/Analytics';
 import Courses from './components/Courses';
+import Quiz from './components/Quiz';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/discussion' element={<DiscussionForum />}></Route>
           <Route path='/analytics' element={<Analytics />}></Route>
           <Route path='/courses' element={<Courses />}></Route>
+          <Route path='/quiz' element={<Quiz />} />
         </Routes>
         <div className='flex flex-col justify-center items-center'>
           <Link to='/discussion' target='_blank'><button className='px-6 py-3 my-2 bg-green-600 text-white font-display hover:ring ring-green rounded'>Move to Discussion Forum</button></Link>

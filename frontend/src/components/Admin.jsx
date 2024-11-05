@@ -65,7 +65,8 @@ const Admin = () => {
                             <h2 className="text-2xl font-bold mb-4">{course.title}</h2>
                             <p className="text-lg mb-6">{course.description}</p>
                             <button
-                                className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600" onClick={() => handleCourseClick(course.id)}> View Course </button>
+                                className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600" onClick={() => handleCourseClick(course.id)}> View Course 
+                            </button>
                         </div>
                     ))}
                 </div>
